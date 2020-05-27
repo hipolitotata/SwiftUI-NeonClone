@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Section: View {
     
-    @State var isLabel: Bool = false
+    @State var isLabel: Bool = true
     
     @Binding var showValue: Bool
     @Binding var label: String
@@ -22,7 +22,7 @@ struct Section: View {
             Text(label).foregroundColor(Color.white).fontWeight(.bold)
             Spacer()
             
-            if isLabel == true { Text(value).foregroundColor(Color.white).gesture( TapGesture()
+            if self.showValue && isLabel == true { Text(value).fontWeight(.bold).foregroundColor(Color.white).gesture( TapGesture()
                 .onEnded { _ in
                     if self.showValue{
                         self.isLabel = false
@@ -44,6 +44,7 @@ struct Section: View {
 }
 
 struct SectionView_Previews: PreviewProvider {
+    
     static var previews: some View {
         Section(showValue: .constant(false),
                 label: .constant("meu neon"), value: .constant("."), icon: .constant("hide")).background(Color("Color1"))

@@ -17,6 +17,8 @@
 		7A00D2D5247B557B00DE84F2 /* NeonUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00D2D4247B557B00DE84F2 /* NeonUIUITests.swift */; };
 		7A5D84FC247BF09F0083EA0B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D84FB247BF09F0083EA0B /* HomeView.swift */; };
 		7A5D84FE247BF0CE0083EA0B /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D84FD247BF0CE0083EA0B /* SectionView.swift */; };
+		7ADCAECF247DEE1900AF7C14 /* CustomSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCAECE247DEE1900AF7C14 /* CustomSectionView.swift */; };
+		7ADCAED2247DFAD500AF7C14 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCAED1247DFAD500AF7C14 /* HostingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		7A00D2D6247B557B00DE84F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A5D84FB247BF09F0083EA0B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7A5D84FD247BF0CE0083EA0B /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		7ADCAECE247DEE1900AF7C14 /* CustomSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSectionView.swift; sourceTree = "<group>"; };
+		7ADCAED1247DFAD500AF7C14 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				7A00D2BD247B557A00DE84F2 /* LaunchScreen.storyboard */,
 				7A00D2C0247B557A00DE84F2 /* Info.plist */,
 				7A00D2BA247B557A00DE84F2 /* Preview Content */,
+				7ADCAED1247DFAD500AF7C14 /* HostingController.swift */,
 			);
 			path = NeonUI;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			children = (
 				7A5D84FB247BF09F0083EA0B /* HomeView.swift */,
 				7A5D84FD247BF0CE0083EA0B /* SectionView.swift */,
+				7ADCAECE247DEE1900AF7C14 /* CustomSectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +290,8 @@
 				7A00D2B3247B557800DE84F2 /* AppDelegate.swift in Sources */,
 				7A5D84FC247BF09F0083EA0B /* HomeView.swift in Sources */,
 				7A5D84FE247BF0CE0083EA0B /* SectionView.swift in Sources */,
+				7ADCAECF247DEE1900AF7C14 /* CustomSectionView.swift in Sources */,
+				7ADCAED2247DFAD500AF7C14 /* HostingController.swift in Sources */,
 				7A00D2B5247B557800DE84F2 /* SceneDelegate.swift in Sources */,
 				7A00D2B7247B557800DE84F2 /* ContentView.swift in Sources */,
 			);
