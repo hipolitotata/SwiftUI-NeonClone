@@ -26,11 +26,11 @@ struct HomeView: View {
                 
                 Section(showValue: .constant(false),label: .constant("transferências"),value: .constant("."),  icon: .constant("money")).background(Color("Color7"))
                 
-                 Section(showValue: .constant(false),label: .constant("pagamentos"),value: .constant("."),  icon: .constant("person")).background(Color("Color4"))
+                 Section(showValue: .constant(false),label: .constant("pagamentos"),value: .constant("."),  icon: .constant("barcode")).background(Color("Color4"))
                 
-                 Section(showValue: .constant(false),label: .constant("recargas"),value: .constant("."),  icon: .constant("person")).background(Color("Color2"))
+                 Section(showValue: .constant(false),label: .constant("recargas"),value: .constant("."),  icon: .constant("phone")).background(Color("Color2"))
                 
-                 Section(showValue: .constant(false),label: .constant("depositos"),value: .constant("."),  icon: .constant("person")).background(Color("Color1"))
+                 Section(showValue: .constant(false),label: .constant("depositos"),value: .constant("."),  icon: .constant("cost")).background(Color("Color1"))
             }
         }.edgesIgnoringSafeArea(.all)
     }
